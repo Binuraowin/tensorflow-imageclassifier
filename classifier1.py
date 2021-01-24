@@ -2,9 +2,10 @@ import ssl
 import tensorflow as tf
 import numpy as np
 from tensorflow import keras
-
+##matplotlip for display  image
 import matplotlib.pyplot as plt
 
+## pre-defeined dataset
 fashion_mnist = keras.datasets.fashion_mnist
 
 (train_images,train_labels),(test_images,test_labels) = fashion_mnist.load_data()
